@@ -44,6 +44,7 @@ class SocialAuthController extends Controller
                     'id' => $user->id,
                     'name' => $user->name,
                     'email' => $user->email,
+                    'image'=> $user->image, // Include image if available
                 ],
                 'token' => $token,
             ],

@@ -23,6 +23,7 @@ class User extends Authenticatable
         'password',
         'auth_provider_id',
         'auth_provider',
+        'image', // Added to store the user's image from social login
     ];
 
     /**

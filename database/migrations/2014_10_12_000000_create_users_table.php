@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->string('auth_provider')->nullable(); // To store the ID from the social provider
             $table->string('auth_provider_id')->nullable(); // To store the ID from the social provider
+            $table->text('image')->nullable(); // To store the ID from the social provider
             $table->rememberToken();
             $table->timestamps();
         });
